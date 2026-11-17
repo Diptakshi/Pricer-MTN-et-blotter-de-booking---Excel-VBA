@@ -26,15 +26,8 @@ Tout le pricing fonctionne **en formules Excel natives**, sans macro. Les module
   (ID en double, devise, nominal, maturité 1–30 ans, coupon, écart au pair > 5 bp) et
   `ExporterBooking` (CSV des trades validés, séparateur « ; »).
 
-## Installation des macros (1 minute)
 
-1. Ouvrir `MTN_Pricer.xlsx` dans Excel.
-2. `Alt + F11` → *Fichier* → *Importer un fichier* → `vba/modPricing.bas`, puis `vba/modBlotter.bas`.
-3. *Fichier* → *Enregistrer sous* → **Classeur Excel prenant en charge les macros (.xlsm)**.
-4. Optionnel : *Développeur* → *Insérer* → *Bouton*, et l'associer à `AjouterAuBlotter`,
-   `ValiderBlotter` ou `ExporterBooking`.
 
-Les modules sont livrés en `.bas` (texte) pour être lisibles et versionnés sur GitHub.
 
 ## Exemple (données illustratives)
 
